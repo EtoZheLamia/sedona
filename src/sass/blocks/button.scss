@@ -1,0 +1,37 @@
+.button {
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: $white;
+}
+
+.button--brown {
+  background-color:$warm-light;
+  &:hover{
+    background-color: $warm-dark;
+    outline: none;
+  }
+  &:active {
+    background-color: $warm-dark;
+    color: rgba(255, 255, 255, 0.3);
+    outline: none;
+  }
+}
+
+.button--blue {
+  background-color: $cold-light;
+  &:hover{
+    background-color: $cold-dark;
+  }
+  &:active {
+    background-color: $cold-dark;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  &:disabled {
+    background-color: #bbb9b9;
+    cursor: auto;
+    color: $basic-grey
+  }
+}

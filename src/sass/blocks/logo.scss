@@ -1,0 +1,28 @@
+.logo {
+  @media (max-width: $mobile-width-only) {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -28px;
+  }
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+}
+
+.logo__tablet {
+  @media (min-width: $tablet-width) {
+    padding: 0 27px;
+  }
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.logo__desktop {
+  @media (max-width: 1199px) {
+    display: none;
+  }
+}
+

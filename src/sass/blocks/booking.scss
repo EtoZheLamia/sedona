@@ -1,0 +1,56 @@
+.booking {
+  text-align: center;
+  padding: 33px 20px 49px;
+  @media (min-width: $tablet-width) {
+    padding: 58px;
+  }
+  @media (min-width: $desktop-width) {
+    padding-bottom: 66px;
+  }
+}
+
+.booking__title {
+  font-weight: 700;
+  @include font-line(21px, 26px);
+  text-transform: uppercase;
+  color: $black;
+  margin-top: 0;
+  margin-bottom: 21px;
+  @media (min-width: $tablet-width) {
+    @include font-line(30px, 26px);
+    margin-bottom: 27px;
+  }
+}
+
+.booking__description {
+  @include font-line(14px, 24px);
+  margin-top: 0;
+  margin-bottom: 27px;
+  @media (max-width:$mobile-width-only) {
+    br {
+      display: none;
+    }
+  }
+  @media (min-width: $tablet-width) {
+    @include font-line(22px, 26px);
+    margin-bottom: 37px;
+  }
+  @media (min-width: $desktop-width) {
+    margin-bottom: 42px;
+  }
+}
+
+
+.booking__button{
+  display: flex;
+  font-weight: 700;
+  @include font-line(21px, 26px);
+  border-radius: 10px;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  @media (min-width: $tablet-width) {
+    width: 458px;
+    margin: 0 auto;
+  }
+}

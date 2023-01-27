@@ -1,0 +1,55 @@
+.promo {
+  background-color: $warm-light;
+  background-image: url("/img/back-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @media (min-resolution: 2dppx) {
+    background-image: url("/img/back-mobile@2x.jpg");
+  }
+  @media (min-width: $tablet-width) {
+    background-image: url("/img/back-tablet.jpg");
+    @media (min-resolution: 2dppx) {
+      background-image: url("/img/back-tablet@2x.jpg");
+    }
+  }
+  @media (min-width: $desktop-width) {
+    background-image: url("/img/back-desktop.jpg");
+    @media (min-resolution: 2dppx) {
+      background-image: url("/img/back-desktop@2x.jpg");
+    }
+  }
+}
+
+.promo__image {
+  display: block;
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 28px;
+  @media (min-width: $tablet-width) {
+    width: 461px;
+    height: 350px;
+  }
+}
+
+.promo-triangle--mobile {
+  display: none;
+  @media ( max-width: $mobile-width-only ) {
+    display: block;
+  }
+}
+
+.promo-triangle--tablet {
+  display: none;
+  @media( min-width: $tablet-width ) and (max-width:$desktop-width) {
+    display: block;
+  }
+}
+
+.promo-triangle--desktop {
+  display: none;
+  @media ( min-width: $desktop-width ) {
+    display: block;
+  }
+}
+

@@ -1,0 +1,87 @@
+.footer {
+  padding-top: 38px;
+  padding-bottom: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 33px;
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    justify-items: center;
+  }
+}
+
+.footer__contact {
+  margin: 0;
+}
+
+.footer__contact-phone {
+  text-decoration:none;
+  @include font-line(21px, 26px);
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  font-style: normal;
+  &:hover {
+    color: $warm-light;
+  }
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 6px;
+}
+
+.social-list__link {
+  display: flex;
+  align-items: center;
+  width: 46px;
+  height: 48px;
+  background-color: $cold-light;
+  justify-content: center;
+  color: $white;
+  &:hover {
+    background-color: $cold-dark;
+  }
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.copyright__link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  @media (min-width: $tablet-width) {
+    gap: 20px;
+  }
+  color: $black;
+  &:hover {
+    color: $warm-light;
+  }
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.copyright__text {
+  font-weight: 400;
+  @include font-line(14px, 26px);
+  color: $black;
+  &:hover {
+    color: $warm-light;
+  }
+  &:active {
+    opacity: 0.3;
+  }
+}
