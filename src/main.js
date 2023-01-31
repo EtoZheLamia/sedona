@@ -2,8 +2,8 @@ import '/index.html';
 import './sass/style.scss';
 import '../node_modules/leaflet/dist/leaflet.css';
 
-import './sass/blocks/page-header/menu-mobile.js';
-import './sass/blocks/subscribe/subscribe.js';
-import './sass/blocks/map/map.js';
+import './js/menu-mobile.js';
+import './js/subscribe.js';
+import './js/map.js';
 import './assets/icons/map-marker.svg';
 
