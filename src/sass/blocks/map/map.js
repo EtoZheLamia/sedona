@@ -52,7 +52,7 @@ const points = [
 ];
 
 const icon = L.icon({
-  iconUrl: '/img/map-marker.svg',
+  iconUrl: './assets/icons/map-marker.svg',
   iconSize: [24, 38],
   iconAnchor: [12, 38],
 });

@@ -2,8 +2,8 @@
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
-  src: url("//src/fonts/ptsans.woff") format("woff"),
-       url("//src/fonts/ptsans.woff2") format("woff2");
+  src: url("//src/assets/fonts/ptsans.woff2") format("woff"),
+       url("//src/assets/fonts/ptsans.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -11,7 +11,7 @@
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
-  src: url("//src/fonts/ptsansbold.woff") format("woff"),
-       url("//src/fonts/ptsansbold.woff2") format("woff2");
+  src: url("//src/assets/fonts/ptsansbold.woff") format("woff"),
+       url("//src/assets/fonts/ptsansbold.woff2") format("woff2");
   font-display: swap;
 }

@@ -83,7 +83,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(jpe?g|png|webp|gif|svg)$/i,
+        test: /\.(jpe?g|png|webp|gif)$/i,
         use: devMode
           ? []
           : [
@@ -113,6 +113,13 @@ module.exports = {
         generator: {
         filename: '[path]/[name][ext]',
         },
+      },
+      {
+        test: /\.svg$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: '[path]/[name][ext]',
+          },
       },
       {
         test: /\.m?js$/,

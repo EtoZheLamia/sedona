@@ -1,10 +1,10 @@
 .subscribe {
-  background-image: url('/img/subscribe__background.webp');
+  background-image: url('../../../assets/img/subscribe__background.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   @media (min-resolution: 2dppx) {
-    background-image: url("/img/subscribe__background@2x.webp");
+    background-image: url("../../../assets/img/subscribe__background@2x.webp");
   }
   color: $white;
   text-align: center;

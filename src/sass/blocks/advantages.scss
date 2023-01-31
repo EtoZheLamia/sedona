@@ -168,7 +168,7 @@
 }
 
 .advantage-item__inner--housing::before {
-  background-image: url('/img/icon-house.svg');
+  background-image: url('../../assets/icons/icon-house.svg');
   background-size: 39px 37px;
   @media (min-width: $tablet-width) {
     background-size: 75px 72px;
@@ -176,7 +176,7 @@
 }
 
 .advantage-item__inner--food::before {
-  background-image: url('/img/icon-burger.svg');
+  background-image: url('../../assets/icons/icon-burger.svg');
   background-size: 40px 35px;
   @media (min-width: $tablet-width) {
     background-size: 76px 68px;
@@ -184,7 +184,7 @@
 }
 
 .advantage-item__inner--souvenirs::before {
-  background-image: url('/img/icon-gift.svg');
+  background-image: url('../../assets/icons/icon-gift.svg');
   background-size: 32px 38px;
   @media (min-width: $tablet-width) {
     background-size: 64px 75px;
